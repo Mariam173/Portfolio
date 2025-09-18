@@ -1,14 +1,21 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiMui } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { SiTailwindcss, SiMui, SiMongodb, SiMysql, SiExpress } from "react-icons/si";
 
 const skills = [
+  // Frontend
   { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-5xl" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-5xl" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-400 text-5xl" /> },
   { name: "React", icon: <FaReact className="text-cyan-400 text-5xl" /> },
   { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400 text-5xl" /> },
   { name: "Material UI", icon: <SiMui className="text-blue-600 text-5xl" /> },
+
+  // Backend
+  { name: "Node.js", icon: <FaNodeJs className="text-green-600 text-5xl" /> },
+  { name: "Express.js", icon: <SiExpress className="text-gray-300 text-5xl" /> },
+  { name: "MySQL", icon: <SiMysql className="text-blue-500 text-5xl" /> },
+  { name: "Databases", icon: <FaDatabase className="text-purple-500 text-5xl" /> },
 ];
 
 const MySkills = () => {
