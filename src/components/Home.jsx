@@ -8,23 +8,21 @@ const Home = () => {
       className="min-h-screen flex flex-col justify-center items-center bg-[#222831] px-6 md:px-10 text-white relative overflow-hidden"
     >
       <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-6xl mx-auto gap-10">
-        
-      
-        <div className="w-full md:w-1/2 text-left">
+        {/* Text Section */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl">Hi, I'm Jolade</h1>
           <h4 className="text-2xl sm:text-5xl font-bold mb-4 leading-tight text-[#00adb5]">
             FULL STACK <span className="text-[#00adb5]">DEVELOPER</span>
           </h4>
-          <p className="text-lg max-w-lg">
+          <p className="text-lg max-w-lg mx-auto md:mx-0">
             I'm passionate about building responsive, user-friendly websites.
             I turn ideas into functional digital solutions that help brands and
             businesses grow.
           </p>
 
-          
-          <div className="flex mt-6">
+          <div className="flex mt-6 justify-center md:justify-start">
             <a
-              href="https://wa.me/2349025092106" 
+              href="https://wa.me/2349025092106"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#00adb5] text-white px-10 py-3 rounded-full text-lg font-semibold hover:bg-cyan-600 transition w-[200px] text-center"
@@ -60,4 +58,3 @@ const Home = () => {
 };
 
 export default Home;
-
