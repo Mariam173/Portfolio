@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-6">
 
         
-        <h1 className="text-2xl font-bold text-[#00adb5]">Ladé^Codes</h1>
+        <h1 className="text-2xl font-bold text-[#00adb5]">CodeByJolade</h1>
 
         
         <ul className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm text-gray-300 items-center">
@@ -53,7 +53,7 @@ const Footer = () => {
 
       
         <p className="text-xs text-gray-400 mt-6">
-          &copy; {new Date().getFullYear()} Jolade^Codes. All rights reserved.
+          &copy; {new Date().getFullYear()} CodeByJolade. All rights reserved.
         </p>
       </div>
     </footer>
