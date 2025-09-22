@@ -13,7 +13,7 @@ const About = () => {
             About Me
           </h3>
           <p className="text-gray-300 leading-relaxed">
-            Hi, I’m <span className="font-semibold text-[#00adb5]">Jolade Balogun</span>, 
+            Hi, I’m <span className="font-semibold text-[#00adb5]">Balogun Jolade Mariam</span>, 
             a Full Stack Developer passionate about building responsive, user-friendly websites. 
             I specialize in creating clean, functional designs paired with efficient backend systems 
             to deliver seamless digital experiences.

@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed top-0 left-0 z-50 backdrop-blur-lg bg-black/50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-[#00adb5]">Ladé^Codes</h1>
+        <h1 className="text-2xl font-bold text-[#00adb5]">CodeByJolade</h1>
 
       
         <ul className="hidden md:flex space-x-6 text-[#00adb5] font-medium">
